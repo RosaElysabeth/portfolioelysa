@@ -258,7 +258,7 @@ const partages = [
     id: "partage15",
     name: "Défilé de mode Final Miss and Mister Jeune MAASC Madagascar",
     skills : ["Antananarivo - Décembre 2019"],
-    url: "https://github.com/kaustubhai",
+    url: "",
   }, 
   {
     // Add image in './styles/images.css' in #partage16
