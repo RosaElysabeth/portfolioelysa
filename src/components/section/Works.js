@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from '../layouts/Project'
-import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
+import { formations, experiences, partages, divers, section3Title, section4Title, section5Title, section6Title } from '../../profile'
 
 const Works = () => {
     return (
@@ -8,11 +8,11 @@ const Works = () => {
             <div data-aos="zoom-in-up" data-aos-once="true" className="third">
                 <>
                     <div className="pp-head-line mx-auto text-center">
-                        <h1 id="Projects" className="red-line pp-head">{section3Title}</h1>
+                        <h1 id="formations" className="red-line pp-head">{section3Title}</h1>
                     </div>
                 </>
                 <div className="row">
-                {projects && projects.map((x) => 
+                {formations && formations.map((x) => 
                 <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills}/>
                 )}
                 </div>
@@ -21,12 +21,38 @@ const Works = () => {
             <div className="third">
                 <>
                     <div className="pp-head-line mx-auto text-center">
-                        <h1 id="Projects" className="red-line pp-head">{section4Title}</h1>
+                        <h1 id="formations" className="red-line pp-head">{section4Title}</h1>
                     </div>
                 </>
                 <div className="row">
-                    {miscellaneous && miscellaneous.map((x) => 
-                    <Project key={x.id} id={x.id} url={x.url} name={x.name} />
+                    {experiences && experiences.map((x) => 
+                    <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills}/>
+                    )}
+                </div>
+            </div>
+
+             <div className="third">
+                <>
+                    <div className="pp-head-line mx-auto text-center">
+                        <h1 id="formations" className="red-line pp-head">{section5Title}</h1>
+                    </div>
+                </>
+                <div className="row">
+                    {partages && partages.map((x) => 
+                    <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills} />
+                    )}
+                </div>
+            </div>
+
+             <div className="third">
+                <>
+                    <div className="pp-head-line mx-auto text-center">
+                        <h1 id="formations" className="red-line pp-head">{section6Title}</h1>
+                    </div>
+                </>
+                <div className="row">
+                    {divers && divers.map((x) => 
+                    <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills} />
                     )}
                 </div>
             </div>

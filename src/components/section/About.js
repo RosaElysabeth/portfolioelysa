@@ -1,6 +1,10 @@
 import React from 'react'
-import Skills from '../layouts/Skills'
-import { about, skillsBar, section2title } from '../../profile'
+// import Skills from '../layouts/Skills'
+import {
+    about,
+    // skillsBar , 
+    section2title
+} from '../../profile'
 
 const About = () => {
     return (
@@ -16,13 +20,13 @@ const About = () => {
                 </p>
             </div>
             </div>
-            <div id="Skills"> 
+            {/* <div id="Skills"> 
                 <div className="row d-flex justify-content-center skills">
                     {skillsBar.map((x) => 
                         <Skills key={x.name} faClass={x.faClass} svg={x.svg} label={x.name}/>
                     )}̀
                 </div> 
-            </div>
+            </div> */}
         </div>
     )
 }

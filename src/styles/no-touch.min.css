@@ -110,8 +110,8 @@ button:focus {
   background-color: #000;
 }
 .about-text {
-  width: 80%;
-  padding: 2%;
+  width: 90%;
+  text-align: justify;
 }
 .red-line {
   color: var(--primary-color);
@@ -188,7 +188,7 @@ button:focus {
 .img-pro {
   height: 100%;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: all 0.5s;
@@ -258,7 +258,7 @@ textarea {
   border: 1px solid #777;
 }
 .half form textarea {
-  padding-bottom: 45px;
+  padding-bottom: 25px;
 }
 .half form input:focus,
 textarea:focus {
@@ -449,8 +449,10 @@ input:checked + .slider:before {
     blinkTextCursor 0.5s steps(27) infinite normal;
 }
 .parallax {
-  background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(../images/cover.jpg);
 }
+
+/*https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260*/
 @keyframes typewriter {
   from {
     width: 0;

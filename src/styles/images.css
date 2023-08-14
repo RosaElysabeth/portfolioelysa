@@ -1,43 +1,133 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('../images/profile.jpg?text=Formation+one');
 }
-/* Projects Photo */
-.project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+/* Formations Photo */
+.formation1{
+    background-image: url('../images/facscience.jpeg?text=Formation+two');
     cursor: none;    
 }
-.project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+.formation2{
+    background-image: url('../images/ens.png?text=Formation+three');
     cursor: none;
 }
-.project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
+.formation3{
+    background-image: url('../images/ens.png?text=Formation+four');
     cursor: none;
 }
-.project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
+.formation4{
+    background-image: url('../images/logofmj.png?text=Formation+five');
     cursor: none;
 }
-.project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+
+/* Experiences photo */
+.exp1{
+    background-image: url('../images/exp1.jpg?text=Experience+one');
     cursor: none;
 }
-.project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+.exp2{
+    background-image: url('../images/profile2.jpg?text=Experience+two');
     cursor: none;
 }
-/* Miscelaneous Activities photo */
+.exp3{
+    background-image: url('../images/exp34.jpg?text=Experience+three');
+    cursor: none;
+}
+.exp4{
+    background-image: url('../images/exp34.jpg?text=Experience+four');
+    cursor: none;
+}
+.exp5{
+    background-image: url('../images/ens.png?text=Experience+five');
+    cursor: none;
+}
+
+/* Partages photos*/
+
+.partage1{
+    background-image: url('../images/p1.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage2{
+    background-image: url('../images/p2.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage3{
+    background-image: url('../images/p3.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage4{
+    background-image: url('../images/p4.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage5{
+    background-image: url('../images/p5.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage6{
+    background-image: url('../images/langue.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage7{
+    background-image: url('../images/p7.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage8{
+    background-image: url('../images/p8.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage9{
+    background-image: url('../images/p9.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage10{
+    background-image: url('../images/p10.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage11{
+    background-image: url('../images/p11.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage12{
+    background-image: url('../images/p12.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage13{
+    background-image: url('../images/p13.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage14{
+    background-image: url('../images/p14.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage15{
+    background-image: url('../images/p15.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage16{
+    background-image: url('../images/p16.jpg?text=Partage+one');
+    cursor: none;
+}
+.partage17{
+    background-image: url('../images/p17.jpg?text=Partage+one');
+    cursor: none;
+}
+
+/* Divers photos */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    background-image: url('../images/ci1.jpg?text=Miscellaneous+one');
     cursor: none;
 }
 .misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    background-image: url('../images/competences.jpg?text=Miscellaneous+two');
     cursor: none;
 }
 .misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    background-image: url('../images/ekipa.jpg?text=Miscellaneous+three');
+    cursor: none;
+}
+.misc4{
+    background-image: url('../images/langue.jpg?text=Miscellaneous+four');
     cursor: none;
 }
