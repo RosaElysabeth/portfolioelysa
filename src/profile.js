@@ -100,14 +100,14 @@ const formations = [
     id: "formation2",
     name: "Master d’Aptitude de l’Ecole Normale Supérieure",
     skills: ["Mention : Mathématiques, UNIVERSITE DE FIANARANTSOA, 2017"],
-    url: "https://web.facebook.com/profile.php?id=100083275483789", 
+    url: "http://www.ens-fianar.mg/", 
   },
   {
     // Add image in './styles/images.css' in #formation3
     id: "formation3",
     name: "Formation en Mathématiques à l’Ecole Normale Supérieure",
     skills: ["Mention : Mathématiques, UNIVERSITE DE FIANARANTSOA, 2012 - 2016"],
-    url: "https://web.facebook.com/profile.php?id=100083275483789",
+    url: "http://www.ens-fianar.mg/",
   },
   {
     // Add image in './styles/images.css' in #formation3
@@ -155,7 +155,7 @@ const experiences = [
     id: "exp5",
     name: "Assistante à l'Ecole Normale Supérieure (2016 - 2017)",
     skills : ["Assistante du Professeur RAKOTOSON Jean Emile pour assurer le cours `\"l’Enseignement de Mathématiques et le Numérique\", Assistante du Professeur RAHERINIRINA Angelo pour assurer les cours de Probabilités - Statistiques à l’Institut Supérieur de Technologie Régional Vatovavy Fitovinany."],
-    url: "https://web.facebook.com/profile.php?id=100083275483789",
+    url: "http://www.ens-fianar.mg/",
   },
 ];
 
