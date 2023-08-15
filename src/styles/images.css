@@ -1,9 +1,13 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('../images/profile.jpg?text=Formation+one');
+    background-image: url('../images/profile.jpg?text=Profile');
 }
 /* Formations Photo */
+.formation0{
+    background-image: url('../images/edmi.png?text=Formation+one');
+    cursor: none;    
+}
 .formation1{
     background-image: url('../images/facscience.jpeg?text=Formation+two');
     cursor: none;    
@@ -66,7 +70,7 @@
     cursor: none;
 }
 .partage6{
-    background-image: url('../images/langue.jpg?text=Partage+one');
+    background-image: url('../images/p6.jpg?text=Partage+one');
     cursor: none;
 }
 .partage7{
@@ -124,10 +128,6 @@
     cursor: none;
 }
 .misc3{
-    background-image: url('../images/ekipa.jpg?text=Miscellaneous+three');
-    cursor: none;
-}
-.misc4{
-    background-image: url('../images/langue.jpg?text=Miscellaneous+four');
+    background-image: url('../images/langue.jpg?text=Miscellaneous+three');
     cursor: none;
 }

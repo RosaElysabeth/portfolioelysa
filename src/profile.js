@@ -20,8 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Originaire de Fianarantsoa, Mathématicienne de formation et styliste de la marque My Passion. My Passion est une marque déposée à l’OMAPI, créée en 2018. Une marque des habits et accessoires gasigasy, Vita malagasy et pour le Malagasy. Parmi les créations figurent des habits et accessoires pour enfant, pour femme, pour homme, pour couple et pour toute la famille. Depuis, My Passion habille plus de 450 couples, et a sorti plus de soixante collections dont les matières premières utilisées sont « soga, lambahoany, landy,lin, raphia et sisal… ». Avec le slogan « travail à main et du cœur », My Passion met en valeur les travaux faits mains par des artisans Malagasy tels que la broderie, le tissage, la peinture et le crochet. Après le partage des créations dans les quatre coins du monde, l’objectif restera d’amener très loin le drapeau malagasy et de valoriser les Vita malagasy",
-};
+    "Have a Master of Aptitude from the Ecole Normale Supérieure in Mathematics, and a Master 2 in Applied Mathematics with a specialty in Numerical Calculation. National Consultant in Education, I have been working for the TAFITA/JICA project (support project for the participatory and decentralized management of schools to improve the quality of Education in Madagascar) since 2018. I am a designer for My passion Madagascar brand mark. And I am also a student in Computer Modeling at the Doctoral School (EDMI) Fianarantsoa Madagascar."};
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
@@ -82,6 +81,13 @@ const skillsBar = [
 // To Add a formation, copy any one below and paste it after the last comma and increment the id's formation number
 const section3Title = "FORMATIONS GENERALES ET DIPLOMES";
 const formations = [
+  {
+    // Add image in './styles/images.css' in #formation0
+    id: "formation0",
+    name: "ECOLE DOCTORALE MODÉLISATION INFORMATIQUE",
+    skills: ["Doctorante, UNIVERSITE DE FIANARANTSOA, 2023"],
+    url: "https://www.univ-fianarantsoa.mg/EcoleDoctorale/details/7", 
+  },
   {
     // Add image in './styles/images.css' in #formation1
     id: "formation1",
@@ -193,7 +199,7 @@ const partages = [
   {
     // Add image in './styles/images.css' in #partage6
     id: "partage6",
-    name: "Partage : SUCCES STORY",
+    name: "Partage : SUCCESS STORY",
     skills : ["AUF - Avril 2022"],
     url: "",
   }, 
@@ -221,8 +227,8 @@ const partages = [
   {
     // Add image in './styles/images.css' in #partage10
     id: "partage10",
-    name: "Ouverture et Clôture Mihamy Mada Fashion",
-    skills : ["2ème édition - Obtention de Chevalier de l'Ordre des Arts, des Lettres et de la Culture en Stylisme - Février 2021"],
+    name: "Obtention de Chevalier de l'Ordre des Arts, des Lettres et de la Culture en Stylisme ",
+    skills : ["Ouverture et Clôture Mihamy Mada Fashion 2ème édition - Février 2021"],
     url: "https://www.facebook.com/search/top/?q=chevalier%20elysa%20aventure",
   },
   {
@@ -296,15 +302,8 @@ const divers = [
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "MON EQUIPE",
-    skills :  ["01 (Styliste, Modéliste), 02 Modèles photos, 03 Ateliers de coupe et couture avec 11 couturiers (Fianarantsoa et Antananarivo), 04 brodeuses (Fianarantsoa - Antananarivo - Toamasina), 01 peintre et 01 livreur (Antsirabe - Antananarivo)"],
-    url: "https://www.facebook.com/mainetcoeur",
-  },
-  {
-    // Add image in './styles/images.css' in #misc4
-    id: "misc4",
     name: "LANGUES",
-    skills :  ["Malagasy : Maternelle , Français : Courant , Anglais : Moyen"],
+    skills :  ["Malagasy : Maternelle , Français : Courant , Anglais : Professionnel"],
     url: "https://web.facebook.com/elysarakala",
   },
 ];
