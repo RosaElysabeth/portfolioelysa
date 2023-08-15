@@ -86,13 +86,13 @@ const formations = [
     // Add image in './styles/images.css' in #formation1
     id: "formation1",
     name: "Master en Mathématiques Appliquées",
-    skills: ["Mention : Mathématiques et Informatique, Spécialité : Calcul Numérique, UNIVERSITE D'ANTANANARIVO, 2017 - 2023"],
+    skills: ["Mention : Mathématiques et Informatique, Spécialité : Calcul Numérique, UNIVERSITE D'ANTANANARIVO, 2023"],
     url: "https://facsciences-antananarivo.mg/", 
   },
   {
     // Add image in './styles/images.css' in #formation2
     id: "formation2",
-    name: "Master d’Aptitude de l’Ecole Normale Supérieure 6",
+    name: "Master d’Aptitude de l’Ecole Normale Supérieure",
     skills: ["Mention : Mathématiques, UNIVERSITE DE FIANARANTSOA, 2017"],
     url: "https://web.facebook.com/profile.php?id=100083275483789", 
   },
