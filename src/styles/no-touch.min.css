@@ -103,7 +103,7 @@ button:focus {
 }
 .Photo {
   background-color: #fff;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .Photo.inverse-dark {

@@ -17,10 +17,10 @@ const background = {
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
-const section2title = "About Me";
+const section2title = "Elysa";
 const about = {
   paragraph:
-    "Have a Master of Aptitude from the Ecole Normale Supérieure in Mathematics, and a Master 2 in Applied Mathematics with a specialty in Numerical Calculation. National Consultant in Education, I have been working for the TAFITA/JICA project (support project for the participatory and decentralized management of schools to improve the quality of Education in Madagascar) since 2018. I am a designer for My passion Madagascar brand mark. And I am also a student in Computer Modeling at the Doctoral School (EDMI) Fianarantsoa Madagascar."};
+    "Graduated as a Master of Pedagogical Aptitude from Mathematics, and as Master 2 in Applied Mathematics focussed on Numerical Calculation specialty. Being a National Consultant in Education, I have been working for the TAFITA/JICA project (support project for the participation and decentralized management of schools to improve the quality of Education in Madagascar) since 2018. I am a designer for My passion Madagascar brand mark. And I am also a student in Computer Modeling Doctoral School (EDMI) Fianarantsoa Madagascar."};
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
@@ -36,19 +36,14 @@ const skillsBar = [
     faClass: "fab fa-css3",
   },
   {
-    name: "Javascript",
+    name: "Latex",
     // svg: '',
-    faClass: "fab fa-js",
+    faClass: "fa fa-file-text",
   },
   {
-    name: "SASS",
+    name: "R",
     // svg: '',
-    faClass: "fab fa-sass",
-  },
-  {
-    name: "Node",
-    // svg: '',
-    faClass: "fab fa-node",
+    faClass: "fa fa-registered",
   },
   {
     name: "Python",
@@ -56,24 +51,9 @@ const skillsBar = [
     faClass: "fab fa-python",
   },
   {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
     name: "Database",
     // svg: '',
     faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
   },
 ];
 // Edit your formations, its name, your skills used to make it, and the url.
@@ -93,7 +73,7 @@ const formations = [
     id: "formation1",
     name: "Master en Mathématiques Appliquées",
     skills: ["Mention : Mathématiques et Informatique, Spécialité : Calcul Numérique, UNIVERSITE D'ANTANANARIVO, 2023"],
-    url: "https://facsciences-antananarivo.mg/", 
+    url: "https://univ-antananarivo.mg/Faculte-des-Sciences", 
   },
   {
     // Add image in './styles/images.css' in #formation2
@@ -125,9 +105,9 @@ const experiences = [
   {
     // Add image in './styles/images.css' in #exp1
     id: "exp1",
-    name: "Consultante Nationale en Education PROJET TAFITA/JICA (2018 jusqu'à ce jour)",
+    name: "Consultante Nationale en Education - PROJET TAFITA/JICA (2018 jusqu'à ce jour)",
     skills : ["Projet d’Appui à la Gestion Participative et Décentralisée des écoles, Agence de Coopération Internationale Japonaise"],
-    url: "https://www.education.gov.mg/partenariat-avec-jica-11-regions-beneficiaires-du-projet-tafita-phase-ii/",
+    url: "https://web.facebook.com/projettafitajicamadagascar?mibextid=D4KYlr&_rdc=1&_rdr",
   },
   {
     // Add image in './styles/images.css' in #exp2
@@ -154,7 +134,7 @@ const experiences = [
     // Add image in './styles/images.css' in #exp5
     id: "exp5",
     name: "Assistante à l'Ecole Normale Supérieure (2016 - 2017)",
-    skills : ["Assistante du Professeur RAKOTOSON Jean Emile pour assurer le cours `\"l’Enseignement de Mathématiques et le Numérique\", Assistante du Professeur RAHERINIRINA Angelo pour assurer les cours de Probabilités - Statistiques à l’Institut Supérieur de Technologie Régional Vatovavy Fitovinany."],
+    skills : ["Assistante du Professeur RAKOTOSON Jean Emile pour assurer le cours \"l’Enseignement de Mathématiques et le Numérique\", Assistante du Professeur RAHERINIRINA Angelo pour assurer les cours de Probabilités - Statistiques à l’Institut Supérieur de Technologie Régional Vatovavy Fitovinany."],
     url: "http://www.ens-fianar.mg/",
   },
 ];
