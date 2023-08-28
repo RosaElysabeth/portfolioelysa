@@ -100,7 +100,7 @@ const formations = [
 // Edit your Experiences, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Experience number
-const section4Title = "EXPERIENCES PROFESSIONNELES";
+const section4Title = "EXPERIENCES PROFESSIONNELLES";
 const experiences = [
   {
     // Add image in './styles/images.css' in #exp1
